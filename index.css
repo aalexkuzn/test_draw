@@ -1,0 +1,23 @@
+.drawpad {
+    color:aqua;
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-color: red;
+    margin: 1px;   
+    flex: 0 1 auto;
+}
+
+#container {
+    background-color:black;
+    display: flex;
+    width: 500px;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap; 
+
+}
+
+.mouseover {
+    background-color: white;
+}
